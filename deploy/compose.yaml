@@ -1,0 +1,19 @@
+# PazySalvo: https://pazysalvo.madebyjohan.xyz
+# App estática; los datos viven en el IndexedDB del navegador de cada usuario.
+# Túnel de Cloudflare: pazysalvo.madebyjohan.xyz -> http://pazysalvo-web:80
+name: pazysalvo
+
+services:
+  web:
+    image: caddy:2
+    container_name: pazysalvo-web
+    restart: unless-stopped
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - ../app:/srv:ro
+    networks:
+      - edge
+
+networks:
+  edge:
+    external: true
