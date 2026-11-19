@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sistema de Paz y Salvo y Liquidación Laboral</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="logo">PS</div>
+      <div><strong>PazySalvo</strong><small>Expediente de salida laboral</small></div>
+    </div>
+    <nav>
+      <a href="#/" data-nav="inicio">Expedientes</a>
+      <a href="#/nuevo" data-nav="nuevo">Nuevo expediente</a>
+      <a href="#/config" data-nav="config">Parámetros y respaldo</a>
+      <a href="#/ayuda" data-nav="ayuda">Procedimiento y normativa</a>
+    </nav>
+    <div class="operador">
+      <label>Usuario operador</label>
+      <input id="operador" placeholder="Nombre de quien registra">
+    </div>
+  </aside>
+  <main id="vista"></main>
+  <div id="modal" class="modal oculto">
+    <div class="modal-caja">
+      <div class="modal-cab"><strong id="modal-titulo"></strong><div><a id="modal-descargar" class="btn sm">Descargar</a> <button class="btn sm sec" data-accion="cerrar-modal">Cerrar</button></div></div>
+      <div id="modal-cuerpo" class="modal-cuerpo"></div>
+    </div>
+  </div>
+  <div id="toast" class="toast"></div>
+
+  <script src="vendor/jspdf.umd.min.js"></script>
+  <script src="vendor/jspdf.plugin.autotable.min.js"></script>
+  <script src="vendor/jszip.min.js"></script>
+  <script src="js/calc.js"></script>
+  <script src="js/db.js"></script>
+  <script src="js/pdf.js"></script>
+  <script src="js/demo.js"></script>
+  <script src="js/demo_evidencias.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
