@@ -1,0 +1,8 @@
+# Material de la entrega académica (no forma parte del código)
+entregables/
+entregables.zip
+informe/
+
+# Python
+__pycache__/
+*.pyc
