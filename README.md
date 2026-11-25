@@ -1,5 +1,7 @@
 # 📋 PazySalvo: paz y salvo y liquidación laboral
 
+> **Proyecto pequeño, pendiente de refactorización.** Lo mantengo publicado como parte de mi recorrido. Mis proyectos actuales están en [madebyjohan.xyz](https://madebyjohan.xyz/proyectos).
+
 [![HTML5](https://img.shields.io/badge/HTML5-e34f26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/es/docs/Web/HTML)
 [![JavaScript](https://img.shields.io/badge/JavaScript-vanilla-f7df1e?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/es/docs/Web/JavaScript)
 [![IndexedDB](https://img.shields.io/badge/Datos-IndexedDB-4a5568?style=flat-square)](https://developer.mozilla.org/es/docs/Web/API/IndexedDB_API)
